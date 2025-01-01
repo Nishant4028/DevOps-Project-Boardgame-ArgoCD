@@ -19,7 +19,6 @@ spec:
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
 
-
 ---
 
 apiVersion: v1
@@ -35,7 +34,7 @@ spec:
       targetPort: 8080 
   type: ClusterIP
 
-  ---
+---
 
 apiVersion: networking.k8s.io/v1
 kind: Ingress

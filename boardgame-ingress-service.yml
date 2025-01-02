@@ -17,3 +17,7 @@ spec:
                 name: boardgame-ssvc
                 port:
                   number: 80
+  tls:
+  - hosts:
+    - nishantg.shop
+    secretName: boardgame-secret

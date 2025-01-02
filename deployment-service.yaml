@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: nishant4028/devopsprojectboardgame:135
+          image: stacksimplify/kube-nginxapp1:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
